@@ -21,6 +21,7 @@ cc_library_shared {
     defaults: [
         "camera_needs_client_info_defaults",
         "qti_camera_device_defaults",
+        "camera_skip_kind_check_defaults",
     ],
 
     // Camera service source
